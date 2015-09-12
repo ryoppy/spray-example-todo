@@ -37,7 +37,7 @@ class TodoRoute extends HttpServiceActor with SprayJsonSupport with DefaultJsonP
           }
         }
       } ~
-      // DELETE /todos
+      // DELETE /todos/:id
       delete {
         path(IntNumber) { id =>
           complete(service.delete(id))
