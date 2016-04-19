@@ -1,3 +1,5 @@
+[![Travis CI](https://travis-ci.org/ryoppy/spray-example-todo.svg?branch=master)](https://travis-ci.org/ryoppy/spray-example-todo)
+
 # spray example todo application.
 
 シンプルなTODOアプリです。
